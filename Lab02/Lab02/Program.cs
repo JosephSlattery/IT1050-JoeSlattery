@@ -33,7 +33,7 @@ namespace Lab02
             2. a integer is a whole number and a double/float is a decimal.
             3. in a separate set of currly braces you can make a string, give it a name, place values assigned to that name, and recal that information by writing the name in the place of the value.
             4. set accessor, get accessor
-            5. 
+            5. An object is a block of code while a class is a set of rules for the code.
            */
         }
     }
