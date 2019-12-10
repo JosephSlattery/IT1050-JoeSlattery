@@ -20,7 +20,7 @@ namespace Dog
             myDog.bark();
             myDog.doTrick("Fetch");
         }
-        
+         
         public string Name;
         public string doTrick;
     }
