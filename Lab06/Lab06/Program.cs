@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Lab06
 {
@@ -40,16 +40,26 @@ namespace Lab06
             */
 
 
-            int[] number = new int[1000];
+            
 
-            foreach (var item in number)
-            {
+           
                 Random random = new Random();
                 int randomNumber;
-                randomNumber = random.Next(0, 1000);
-                Console.WriteLine(number);
-            }
+                int[] randomNumbers = new int[1000];
+                
+            {
+                for (int i = 0; i < randomNumbers.Length; i++)
+                {
+                    randomNumber = random.Next(0, 1000);
+                    randomNumbers[i] = randomNumber;
+                }
 
+                for (int i = 0; i < randomNumbers.Length; i++)
+                {
+                    Console.WriteLine($"{i + 1,4}.{randomNumbers[i]}");
+                }
+
+            }
 
             /*
             string[] names = { "Al Dente", "Anna Graham", "Earle Bird", "Ginger Rayle", "Iona Ford" };
