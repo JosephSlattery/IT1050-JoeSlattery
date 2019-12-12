@@ -6,7 +6,9 @@ namespace Lab06
     {
         static void Main(string[] args)
         {
-            /*
+            // p[0], p[1], p[2], p[3]
+            
+            
              string[] months = new string[12];
              months[0] = "1, January";
              months[1] = "2, February";
@@ -20,33 +22,30 @@ namespace Lab06
              months[9] = "10, October";
              months[10] = "11, November";
              months[11] = "12, December";
-
              for (int i = 0; i < months.Length; i++)
              {
                  Console.WriteLine(months[i]);
              }
         
-
             string[] seasons = new string[4];
             seasons[0] = "spring";
             seasons[1] = "summer";
             seasons[2] = "fall";
             seasons[3] = "winter";
-
             foreach (var season in seasons)
             {
                 Console.WriteLine(season);
             }
-            */
-
-
             
 
-           
-                Random random = new Random();
-                int randomNumber;
-                int[] randomNumbers = new int[1000];
-                
+
+
+
+
+            Random random = new Random();
+            int randomNumber;
+            int[] randomNumbers = new int[1000];
+
             {
                 for (int i = 0; i < randomNumbers.Length; i++)
                 {
@@ -63,7 +62,6 @@ namespace Lab06
 
             /*
             string[] names = { "Al Dente", "Anna Graham", "Earle Bird", "Ginger Rayle", "Iona Ford" };
-
             int i = 0;
             foreach (var name in names)
             {
